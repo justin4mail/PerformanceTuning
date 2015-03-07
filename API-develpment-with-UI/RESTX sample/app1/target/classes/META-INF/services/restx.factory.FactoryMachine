@@ -1,0 +1,3 @@
+app1.AppModuleFactoryMachine
+app1.rest.HelloResourceFactoryMachine
+app1.rest.HelloResourceRouterFactoryMachine

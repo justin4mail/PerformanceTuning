@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="3" time="12.16" errors="0" skipped="0" tests="4" name="app1.rest.HelloResourceSpecTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="24.76-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/justin/app1"/>
+    <property name="java.runtime.version" value="1.7.0_76-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="maven.ext.class.path" value="/home/justin/netbeans-7.4/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="/home/justin/netbeans-7.4/java/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/amd64:/usr/lib/jvm/java-7-oracle/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.13.0-46-generic"/>
+    <property name="user.home" value="/home/justin"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.name" value="justin"/>
+    <property name="java.class.path" value="/home/justin/netbeans-7.4/java/maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-7-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/home/justin/netbeans-7.4/java/maven-nblib/netbeans-eventspy.jar clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_76"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/justin/netbeans-7.4/java/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="2.361" classname="app1.rest.HelloResourceSpecTest" name="should admin say hello">
+    <failure message="Expecting:
+  {
+    &quot;message&quot; : &quot;hello xavier, it&apos;s 04:48:00&quot;
+  }
+to be same json as:
+  {&quot;message&quot;:&quot;hello xavier, it&apos;s 01:18:00&quot;}
+but following differences were found:
+- within [L1C2]-[L3C2]:
+  {
+    &quot;message&quot; : &quot;hello xavier, it&apos;s 04:48:00&quot;
+  }
+01) expected value &quot;hello xavier, it&apos;s 01:18:00&quot; but was &quot;hello xavier, it&apos;s 04:48:00&quot; at path &apos;./message&apos;
+
+
+if the expectation is not up to date, here is a merged expect that you can use to fix your test:
+  {
+    &quot;message&quot; : &quot;hello xavier, it&apos;s 04:48:00&quot;
+  }
+
+" type="java.lang.AssertionError">java.lang.AssertionError: Expecting:
+  {
+    &quot;message&quot; : &quot;hello xavier, it&apos;s 04:48:00&quot;
+  }
+to be same json as:
+  {&quot;message&quot;:&quot;hello xavier, it&apos;s 01:18:00&quot;}
+but following differences were found:
+- within [L1C2]-[L3C2]:
+  {
+    &quot;message&quot; : &quot;hello xavier, it&apos;s 04:48:00&quot;
+  }
+01) expected value &quot;hello xavier, it&apos;s 01:18:00&quot; but was &quot;hello xavier, it&apos;s 04:48:00&quot; at path &apos;./message&apos;
+
+
+if the expectation is not up to date, here is a merged expect that you can use to fix your test:
+  {
+    &quot;message&quot; : &quot;hello xavier, it&apos;s 04:48:00&quot;
+  }
+
+
+	at restx.tests.json.JsonAssertions.isSameJsonAs(JsonAssertions.java:87)
+	at restx.tests.json.JsonAssertions.isSameJsonAs(JsonAssertions.java:73)
+	at restx.tests.WhenHttpChecker.check(WhenHttpChecker.java:72)
+	at restx.tests.WhenHttpChecker.check(WhenHttpChecker.java:20)
+	at restx.tests.RestxSpecRunner.runSpec(RestxSpecRunner.java:113)
+	at restx.tests.RestxSpecRunner.runTest(RestxSpecRunner.java:67)
+	at restx.tests.RestxSpecRule.runTest(RestxSpecRule.java:67)
+	at restx.tests.RestxSpecTestsRunner$1.evaluate(RestxSpecTestsRunner.java:88)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at restx.tests.RestxSpecTestsRunner.runChild(RestxSpecTestsRunner.java:85)
+	at restx.tests.RestxSpecTestsRunner.runChild(RestxSpecTestsRunner.java:39)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at restx.tests.RestxServerRule$1.evaluate(RestxServerRule.java:62)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</failure>
+    <system-out>starting server
+2015-02-27 19:35:33,281 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2015-02-27 19:35:33,672 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2015-02-27 19:35:33,673 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX &gt;&gt; LOAD ON REQUEST &lt;&lt; &gt;&gt; CLEAN &lt;&lt; &gt;&gt; TEST MODE &lt;&lt;
+ -- for admin console,
+ --   VISIT http://127.0.0.1:50414/api/@/ui/
+ --
+
+server started
+---------------------------------------------------------------------------------
+&gt;&gt; REQUEST
+GET http://127.0.0.1:50414/api/hello?who=xavier
+
+
+2015-02-27 19:35:35,857 [qtp265565162-13 ] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2015-02-27 19:35:36,025 [qtp265565162-13 ] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2015-02-27 19:35:36,184 [qtp265565162-13 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /hello ? who=xavier - per request factory created in 2.074 s
+2015-02-27 19:35:36,209 [qtp265565162-13 ] [          ] INFO  restx.StdRestxMainRouter - &lt;&lt; [RESTX REQUEST] GET /hello ? who=xavier &gt;&gt; OK - 24.97 ms
+&lt;&lt; RESPONSE
+200
+
+{
+  &quot;message&quot; : &quot;hello xavier, it&apos;s 04:48:00&quot;
+}
+
+</system-out>
+    <system-err>LoginService=HashLoginService[null] identityService=org.eclipse.jetty.security.DefaultIdentityService@46e2812b
+</system-err>
+  </testcase>
+  <testcase time="1.255" classname="app1.rest.HelloResourceSpecTest" name="should admin say hello">
+    <failure message="Expecting:
+  {
+    &quot;message&quot; : &quot;hello admin, it&apos;s 04:48:00&quot;
+  }
+to be same json as:
+  {&quot;message&quot;:&quot;hello admin, it&apos;s 01:18:00&quot;}
+but following differences were found:
+- within [L1C2]-[L3C2]:
+  {
+    &quot;message&quot; : &quot;hello admin, it&apos;s 04:48:00&quot;
+  }
+01) expected value &quot;hello admin, it&apos;s 01:18:00&quot; but was &quot;hello admin, it&apos;s 04:48:00&quot; at path &apos;./message&apos;
+
+
+if the expectation is not up to date, here is a merged expect that you can use to fix your test:
+  {
+    &quot;message&quot; : &quot;hello admin, it&apos;s 04:48:00&quot;
+  }
+
+" type="java.lang.AssertionError">java.lang.AssertionError: Expecting:
+  {
+    &quot;message&quot; : &quot;hello admin, it&apos;s 04:48:00&quot;
+  }
+to be same json as:
+  {&quot;message&quot;:&quot;hello admin, it&apos;s 01:18:00&quot;}
+but following differences were found:
+- within [L1C2]-[L3C2]:
+  {
+    &quot;message&quot; : &quot;hello admin, it&apos;s 04:48:00&quot;
+  }
+01) expected value &quot;hello admin, it&apos;s 01:18:00&quot; but was &quot;hello admin, it&apos;s 04:48:00&quot; at path &apos;./message&apos;
+
+
+if the expectation is not up to date, here is a merged expect that you can use to fix your test:
+  {
+    &quot;message&quot; : &quot;hello admin, it&apos;s 04:48:00&quot;
+  }
+
+
+	at restx.tests.json.JsonAssertions.isSameJsonAs(JsonAssertions.java:87)
+	at restx.tests.json.JsonAssertions.isSameJsonAs(JsonAssertions.java:73)
+	at restx.tests.WhenHttpChecker.check(WhenHttpChecker.java:72)
+	at restx.tests.WhenHttpChecker.check(WhenHttpChecker.java:20)
+	at restx.tests.RestxSpecRunner.runSpec(RestxSpecRunner.java:113)
+	at restx.tests.RestxSpecRunner.runTest(RestxSpecRunner.java:67)
+	at restx.tests.RestxSpecRule.runTest(RestxSpecRule.java:67)
+	at restx.tests.RestxSpecTestsRunner$1.evaluate(RestxSpecTestsRunner.java:88)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at restx.tests.RestxSpecTestsRunner.runChild(RestxSpecTestsRunner.java:85)
+	at restx.tests.RestxSpecTestsRunner.runChild(RestxSpecTestsRunner.java:39)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at restx.tests.RestxServerRule$1.evaluate(RestxServerRule.java:62)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</failure>
+    <system-out>---------------------------------------------------------------------------------
+&gt;&gt; REQUEST
+GET http://127.0.0.1:50414/api/message
+
+
+2015-02-27 19:35:37,446 [qtp265565162-13 ] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2015-02-27 19:35:37,494 [qtp265565162-13 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /message - per request factory created in 688.1 ms
+&lt;&lt; RESPONSE
+200
+
+{
+  &quot;message&quot; : &quot;hello admin, it&apos;s 04:48:00&quot;
+}
+
+2015-02-27 19:35:37,541 [qtp265565162-13 ] [admin     ] INFO  restx.StdRestxMainRouter - &lt;&lt; [RESTX REQUEST] GET /message &gt;&gt; OK - 45.55 ms
+</system-out>
+  </testcase>
+  <testcase time="1.717" classname="app1.rest.HelloResourceSpecTest" name="should user1 say hello">
+    <failure message="Expecting:
+  {
+    &quot;message&quot; : &quot;hello user1, it&apos;s 04:48:00&quot;
+  }
+to be same json as:
+  {&quot;message&quot;:&quot;hello user1, it&apos;s 01:18:00&quot;}
+but following differences were found:
+- within [L1C2]-[L3C2]:
+  {
+    &quot;message&quot; : &quot;hello user1, it&apos;s 04:48:00&quot;
+  }
+01) expected value &quot;hello user1, it&apos;s 01:18:00&quot; but was &quot;hello user1, it&apos;s 04:48:00&quot; at path &apos;./message&apos;
+
+
+if the expectation is not up to date, here is a merged expect that you can use to fix your test:
+  {
+    &quot;message&quot; : &quot;hello user1, it&apos;s 04:48:00&quot;
+  }
+
+" type="java.lang.AssertionError">java.lang.AssertionError: Expecting:
+  {
+    &quot;message&quot; : &quot;hello user1, it&apos;s 04:48:00&quot;
+  }
+to be same json as:
+  {&quot;message&quot;:&quot;hello user1, it&apos;s 01:18:00&quot;}
+but following differences were found:
+- within [L1C2]-[L3C2]:
+  {
+    &quot;message&quot; : &quot;hello user1, it&apos;s 04:48:00&quot;
+  }
+01) expected value &quot;hello user1, it&apos;s 01:18:00&quot; but was &quot;hello user1, it&apos;s 04:48:00&quot; at path &apos;./message&apos;
+
+
+if the expectation is not up to date, here is a merged expect that you can use to fix your test:
+  {
+    &quot;message&quot; : &quot;hello user1, it&apos;s 04:48:00&quot;
+  }
+
+
+	at restx.tests.json.JsonAssertions.isSameJsonAs(JsonAssertions.java:87)
+	at restx.tests.json.JsonAssertions.isSameJsonAs(JsonAssertions.java:73)
+	at restx.tests.WhenHttpChecker.check(WhenHttpChecker.java:72)
+	at restx.tests.WhenHttpChecker.check(WhenHttpChecker.java:20)
+	at restx.tests.RestxSpecRunner.runSpec(RestxSpecRunner.java:113)
+	at restx.tests.RestxSpecRunner.runTest(RestxSpecRunner.java:67)
+	at restx.tests.RestxSpecRule.runTest(RestxSpecRule.java:67)
+	at restx.tests.RestxSpecTestsRunner$1.evaluate(RestxSpecTestsRunner.java:88)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at restx.tests.RestxSpecTestsRunner.runChild(RestxSpecTestsRunner.java:85)
+	at restx.tests.RestxSpecTestsRunner.runChild(RestxSpecTestsRunner.java:39)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at restx.tests.RestxServerRule$1.evaluate(RestxServerRule.java:62)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</failure>
+    <system-out>---------------------------------------------------------------------------------
+&gt;&gt; REQUEST
+GET http://127.0.0.1:50414/api/message
+
+
+2015-02-27 19:35:39,195 [qtp265565162-13 ] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2015-02-27 19:35:39,240 [qtp265565162-13 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /message - per request factory created in 809.5 ms
+&lt;&lt; RESPONSE
+200
+2015-02-27 19:35:39,257 [qtp265565162-13 ] [user1     ] INFO  restx.StdRestxMainRouter - &lt;&lt; [RESTX REQUEST] GET /message &gt;&gt; OK - 15.22 ms
+
+{
+  &quot;message&quot; : &quot;hello user1, it&apos;s 04:48:00&quot;
+}
+
+</system-out>
+  </testcase>
+  <testcase time="2.838" classname="app1.rest.HelloResourceSpecTest" name="should user2 not say hello"/>
+</testsuite>

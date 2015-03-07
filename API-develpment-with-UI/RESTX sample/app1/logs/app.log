@@ -1,0 +1,1167 @@
+2015-02-27 19:24:59,979 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2015-02-27 19:25:00,413 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2015-02-27 19:25:00,414 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> CLEAN << >> TEST MODE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:48565/api/@/ui/
+ --
+
+2015-02-27 19:25:03,254 [qtp1079637326-13] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2015-02-27 19:25:03,448 [qtp1079637326-13] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2015-02-27 19:25:03,626 [qtp1079637326-13] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /hello ? who=xavier - per request factory created in 2.823 s
+2015-02-27 19:25:03,661 [qtp1079637326-13] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /hello ? who=xavier >> OK - 35.04 ms
+2015-02-27 19:25:04,947 [qtp1079637326-13] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2015-02-27 19:25:04,995 [qtp1079637326-13] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /message - per request factory created in 695.0 ms
+2015-02-27 19:25:05,056 [qtp1079637326-13] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /message >> OK - 60.08 ms
+2015-02-27 19:25:06,367 [qtp1079637326-13] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2015-02-27 19:25:06,412 [qtp1079637326-13] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /message - per request factory created in 718.2 ms
+2015-02-27 19:25:06,441 [qtp1079637326-13] [user1     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /message >> OK - 26.71 ms
+2015-02-27 19:25:07,796 [qtp1079637326-13] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2015-02-27 19:25:07,874 [qtp1079637326-13] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /message - per request factory created in 782.0 ms
+2015-02-27 19:25:07,889 [qtp1079637326-13] [user2     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /message >> FORBIDDEN - 13.13 ms
+2015-02-27 19:25:51,252 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2015-02-27 19:25:52,030 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2015-02-27 19:25:52,040 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2015-02-27 19:25:52,103 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2015-02-27 19:25:53,980 [pool-1-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 5 sources compiled in 1.660 s
+2015-02-27 19:25:54,361 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2015-02-27 19:25:54,403 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src/main/java, src/main/resources]; current location is /home/justin/app1/.
+2015-02-27 19:25:55,520 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2015-02-27 19:25:55,658 [main            ] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2015-02-27 19:26:20,742 [qtp1359176305-21] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2015-02-27 19:26:20,904 [qtp1359176305-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/ - per request factory created in 467.0 ms
+2015-02-27 19:26:21,445 [qtp1359176305-23] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/securityHandling.js - per request factory created in 297.9 ms
+2015-02-27 19:26:21,510 [qtp1359176305-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/admin.css - per request factory created in 391.6 ms
+2015-02-27 19:26:21,514 [qtp1359176305-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/bootstrap.min.css - per request factory created in 407.5 ms
+2015-02-27 19:26:21,513 [qtp1359176305-24] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/admin.js - per request factory created in 353.9 ms
+2015-02-27 19:26:22,603 [qtp1359176305-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> UNAUTHORIZED - 3.013 ms
+2015-02-27 19:26:22,644 [qtp1359176305-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> UNAUTHORIZED - 9.716 ms
+2015-02-27 19:26:22,931 [qtp1359176305-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/login.html ? backTo=http://127.0.0.1:8080/api/@/ui/ - per request factory created in 239.4 ms
+2015-02-27 19:26:23,240 [qtp1359176305-24] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/alertify.core.css - per request factory created in 216.6 ms
+2015-02-27 19:26:23,288 [qtp1359176305-23] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/alertify.default.css - per request factory created in 260.6 ms
+2015-02-27 19:26:23,312 [qtp1359176305-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/login.css - per request factory created in 275.2 ms
+2015-02-27 19:26:23,328 [qtp1359176305-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/Spark-md5.min.js - per request factory created in 251.5 ms
+2015-02-27 19:26:23,425 [qtp1359176305-25] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/jquery.querystring.js - per request factory created in 238.2 ms
+2015-02-27 19:26:23,499 [qtp1359176305-26] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/alertify.min.js - per request factory created in 307.4 ms
+2015-02-27 19:26:23,527 [qtp1359176305-24] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/login.js - per request factory created in 257.5 ms
+2015-02-27 19:26:23,579 [qtp1359176305-23] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/bootstrap.min.css - per request factory created in 272.5 ms
+2015-02-27 19:26:23,613 [qtp1359176305-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/admin.css - per request factory created in 274.0 ms
+2015-02-27 19:28:35,058 [qtp1359176305-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> UNAUTHORIZED - 413.4 ms
+2015-02-27 19:28:41,575 [qtp1359176305-26] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> UNAUTHORIZED - 97.49 ms
+2015-02-27 19:28:56,669 [qtp1359176305-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> UNAUTHORIZED - 31.90 ms
+2015-02-27 19:29:17,322 [qtp1359176305-26] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> OK - 405.6 ms
+2015-02-27 19:29:18,086 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 8.046 ms
+2015-02-27 19:29:18,163 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 37.97 ms
+2015-02-27 19:29:29,098 [qtp1359176305-27] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/api-docs/lib/underscore.string.js - per request factory created in 250.9 ms
+2015-02-27 19:29:29,118 [qtp1359176305-26] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/api-docs/lib/keymaster.min.js - per request factory created in 273.0 ms
+2015-02-27 19:29:29,119 [qtp1359176305-28] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/api-docs/js/services/Api.js - per request factory created in 238.9 ms
+2015-02-27 19:29:29,125 [qtp1359176305-29] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/api-docs/js/controllers/ApisController.js - per request factory created in 228.8 ms
+2015-02-27 19:29:31,848 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.225 ms
+2015-02-27 19:29:31,873 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 32.24 ms
+2015-02-27 19:29:31,978 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 59.67 ms
+2015-02-27 19:29:32,036 [qtp1359176305-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 12.78 ms
+2015-02-27 19:29:32,049 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.794 ms
+2015-02-27 19:29:32,183 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-resources >> NOT_FOUND - 17.88 ms
+2015-02-27 19:29:32,208 [qtp1359176305-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/hello - per request factory created in 210.6 ms
+2015-02-27 19:29:32,228 [qtp1359176305-26] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/mount-sources - per request factory created in 222.4 ms
+2015-02-27 19:29:32,237 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-sources >> NOT_FOUND - 5.745 ms
+2015-02-27 19:29:32,269 [qtp1359176305-27] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/json-schema - per request factory created in 230.9 ms
+2015-02-27 19:29:32,394 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 202.5 ms
+2015-02-27 19:29:32,423 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 213.9 ms
+2015-02-27 19:29:32,423 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 175.6 ms
+2015-02-27 19:29:32,430 [qtp1359176305-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 147.4 ms
+2015-02-27 19:29:32,440 [qtp1359176305-29] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/config - per request factory created in 252.7 ms
+2015-02-27 19:29:32,491 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 43.25 ms
+2015-02-27 19:29:32,503 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 50.71 ms
+2015-02-27 19:29:32,601 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 41.21 ms
+2015-02-27 19:29:32,611 [qtp1359176305-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 18.15 ms
+2015-02-27 19:29:32,630 [qtp1359176305-30] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 44.32 ms
+2015-02-27 19:29:32,633 [qtp1359176305-28] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/metrics - per request factory created in 208.6 ms
+2015-02-27 19:29:32,692 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 52.14 ms
+2015-02-27 19:29:33,005 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/spec-recorder-route >> NOT_FOUND - 309.6 ms
+2015-02-27 19:29:33,019 [qtp1359176305-26] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/sessions - per request factory created in 519.2 ms
+2015-02-27 19:29:33,070 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 36.12 ms
+2015-02-27 19:29:33,098 [qtp1359176305-27] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/session - per request factory created in 485.7 ms
+2015-02-27 19:29:33,111 [qtp1359176305-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/restx-stats - per request factory created in 503.4 ms
+2015-02-27 19:29:34,206 [qtp1359176305-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 1.107 s
+2015-02-27 19:29:34,216 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 1.104 s
+2015-02-27 19:29:54,014 [qtp1359176305-29] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs - per request factory created in 1.873 s
+2015-02-27 19:29:54,175 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 118.0 ms
+2015-02-27 19:29:54,367 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-resources >> NOT_FOUND - 5.416 ms
+2015-02-27 19:29:54,478 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 21.18 ms
+2015-02-27 19:29:54,499 [qtp1359176305-30] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-sources >> NOT_FOUND - 3.584 ms
+2015-02-27 19:29:54,512 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 35.20 ms
+2015-02-27 19:29:54,512 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 37.87 ms
+2015-02-27 19:29:54,543 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 45.68 ms
+2015-02-27 19:29:54,606 [qtp1359176305-27] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/json-schema - per request factory created in 289.9 ms
+2015-02-27 19:29:54,639 [qtp1359176305-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 31.47 ms
+2015-02-27 19:29:54,666 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 36.28 ms
+2015-02-27 19:29:54,683 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 49.17 ms
+2015-02-27 19:29:54,707 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 41.93 ms
+2015-02-27 19:29:54,712 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 42.01 ms
+2015-02-27 19:29:54,754 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 40.11 ms
+2015-02-27 19:29:54,869 [qtp1359176305-27] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/sessions - per request factory created in 227.7 ms
+2015-02-27 19:29:54,873 [qtp1359176305-29] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/restx-stats - per request factory created in 206.3 ms
+2015-02-27 19:29:54,879 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/spec-recorder-route >> NOT_FOUND - 7.449 ms
+2015-02-27 19:29:54,898 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 34.75 ms
+2015-02-27 19:29:54,899 [qtp1359176305-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 25.32 ms
+2015-02-27 19:29:54,903 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 27.10 ms
+2015-02-27 19:30:02,745 [qtp1359176305-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/img/glyphicons-halflings.png - per request factory created in 2.216 s
+2015-02-27 19:30:32,993 [qtp1359176305-30] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/api-docs/views/operation.html - per request factory created in 484.4 ms
+2015-02-27 19:30:33,335 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 8.688 ms
+2015-02-27 19:30:33,372 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 8.773 ms
+2015-02-27 19:30:33,869 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/app1.rest.HelloResource.notes.json >> NOT_FOUND - 73.61 ms
+2015-02-27 19:30:34,021 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/message&httpMethod=GET >> OK - 282.3 ms
+2015-02-27 19:30:43,484 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/app1/rest/ >> OK - 20.85 ms
+2015-02-27 19:30:43,491 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/app1/rest/HelloResource.java >> OK - 23.72 ms
+2015-02-27 19:30:43,577 [qtp1359176305-30] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.650 ms
+2015-02-27 19:30:43,579 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 9.599 ms
+2015-02-27 19:30:43,623 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/app1/rest/ >> OK - 2.072 ms
+2015-02-27 19:30:43,638 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/app1/rest/HelloResource.java >> OK - 1.693 ms
+2015-02-27 19:30:43,731 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.696 ms
+2015-02-27 19:30:43,751 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.175 ms
+2015-02-27 19:31:06,792 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.748 ms
+2015-02-27 19:31:06,810 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.076 ms
+2015-02-27 19:31:07,013 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 6.204 ms
+2015-02-27 19:31:07,046 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.762 ms
+2015-02-27 19:31:07,146 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 3.076 ms
+2015-02-27 19:31:07,318 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 8.013 ms
+2015-02-27 19:31:07,395 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 9.632 ms
+2015-02-27 19:31:07,410 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 13.98 ms
+2015-02-27 19:31:07,452 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-sources >> NOT_FOUND - 10.24 ms
+2015-02-27 19:31:07,453 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-resources >> NOT_FOUND - 9.543 ms
+2015-02-27 19:31:07,509 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 19.14 ms
+2015-02-27 19:31:07,514 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 38.98 ms
+2015-02-27 19:31:07,517 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 16.55 ms
+2015-02-27 19:31:07,635 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 34.12 ms
+2015-02-27 19:31:07,637 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 39.82 ms
+2015-02-27 19:31:07,649 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/spec-recorder-route >> NOT_FOUND - 1.957 ms
+2015-02-27 19:31:07,675 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 8.018 ms
+2015-02-27 19:31:07,677 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 46.15 ms
+2015-02-27 19:31:07,718 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 8.400 ms
+2015-02-27 19:31:07,747 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 8.942 ms
+2015-02-27 19:31:07,772 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 9.787 ms
+2015-02-27 19:31:26,447 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 3.236 ms
+2015-02-27 19:31:26,449 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 5.227 ms
+2015-02-27 19:31:26,637 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/restx.monitor.Monitor.notes.json >> NOT_FOUND - 21.54 ms
+2015-02-27 19:31:26,687 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/@/monitor&httpMethod=GET >> OK - 62.96 ms
+2015-02-27 19:31:30,890 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 3.978 ms
+2015-02-27 19:31:31,050 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 25.34 ms
+2015-02-27 19:31:31,050 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-resources >> NOT_FOUND - 9.200 ms
+2015-02-27 19:31:31,112 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 80.86 ms
+2015-02-27 19:31:31,115 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-sources >> NOT_FOUND - 1.952 ms
+2015-02-27 19:31:31,121 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 84.34 ms
+2015-02-27 19:31:31,281 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 23.49 ms
+2015-02-27 19:31:31,288 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 38.23 ms
+2015-02-27 19:31:31,290 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 37.98 ms
+2015-02-27 19:31:31,307 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 52.08 ms
+2015-02-27 19:31:31,355 [qtp1359176305-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 54.73 ms
+2015-02-27 19:31:31,363 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 51.24 ms
+2015-02-27 19:31:31,432 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 10.13 ms
+2015-02-27 19:31:31,446 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 25.60 ms
+2015-02-27 19:31:31,447 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/spec-recorder-route >> NOT_FOUND - 11.66 ms
+2015-02-27 19:31:31,459 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 8.647 ms
+2015-02-27 19:31:31,474 [qtp1359176305-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 10.21 ms
+2015-02-27 19:31:42,099 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 8.521 ms
+2015-02-27 19:31:42,107 [qtp1359176305-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.604 ms
+2015-02-27 19:31:42,251 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/@/restx-stats&httpMethod=GET >> OK - 4.180 ms
+2015-02-27 19:31:42,260 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/restx.stats.RestxStatsResource.notes.json >> NOT_FOUND - 2.222 ms
+2015-02-27 19:31:45,407 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/schemas/restx.stats.RestxStats >> OK - 192.7 ms
+2015-02-27 19:31:50,819 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.668 ms
+2015-02-27 19:31:50,853 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 9.347 ms
+2015-02-27 19:31:50,977 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/@/restx-stats&httpMethod=GET >> OK - 4.696 ms
+2015-02-27 19:31:50,991 [qtp1359176305-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/restx.stats.RestxStatsResource.notes.json >> NOT_FOUND - 3.555 ms
+2015-02-27 19:31:53,663 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/schemas/restx.stats.RestxStats >> OK - 4.968 ms
+2015-02-27 19:31:55,244 [qtp1359176305-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 10.66 ms
+2015-02-27 19:31:55,252 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 11.80 ms
+2015-02-27 19:31:55,372 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/@/restx-stats&httpMethod=GET >> OK - 4.740 ms
+2015-02-27 19:31:55,379 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/restx.stats.RestxStatsResource.notes.json >> NOT_FOUND - 2.089 ms
+2015-02-27 19:31:57,147 [qtp1359176305-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/restx/stats/RestxStatsResource.java >> NOT_FOUND - 3.013 ms
+2015-02-27 19:31:57,199 [qtp1359176305-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.692 ms
+2015-02-27 19:31:57,206 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/restx/stats/ >> NOT_FOUND - 3.164 ms
+2015-02-27 19:31:57,206 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 4.333 ms
+2015-02-27 19:31:57,306 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.877 ms
+2015-02-27 19:31:57,319 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/restx/stats/RestxStatsResource.java >> NOT_FOUND - 1.801 ms
+2015-02-27 19:31:57,378 [qtp1359176305-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/restx/stats/ >> NOT_FOUND - 1.123 ms
+2015-02-27 19:31:57,378 [qtp1359176305-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.966 ms
+2015-02-27 19:32:07,268 [qtp1359176305-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.151 ms
+2015-02-27 19:32:07,296 [qtp1359176305-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 10.59 ms
+2015-02-27 19:32:07,366 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.106 ms
+2015-02-27 19:32:07,445 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 3.417 ms
+2015-02-27 19:32:07,461 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/restx-stats >> OK - 2.577 ms
+2015-02-27 19:32:17,223 [qtp1359176305-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.345 ms
+2015-02-27 19:32:17,242 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.268 ms
+2015-02-27 19:32:17,303 [qtp1359176305-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.130 ms
+2015-02-27 19:32:17,337 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.639 ms
+2015-02-27 19:32:18,553 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/ >> OK - 34.97 ms
+2015-02-27 19:32:19,770 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/app1/ >> OK - 5.292 ms
+2015-02-27 19:32:22,143 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/app1/ >> OK - 2.768 ms
+2015-02-27 19:32:22,468 [qtp1359176305-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/app1/AppServer.java >> OK - 322.4 ms
+2015-02-27 19:32:23,898 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/app1/domain/ >> OK - 13.43 ms
+2015-02-27 19:32:25,068 [qtp1359176305-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/app1/domain/ >> OK - 1.751 ms
+2015-02-27 19:32:25,100 [qtp1359176305-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/app1/domain/Message.java >> OK - 33.45 ms
+2015-02-27 19:32:29,823 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/messages/ >> NOT_FOUND - 2.289 ms
+2015-02-27 19:32:40,630 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] DELETE /sessions/current >> OK - 2.535 ms
+2015-02-27 19:32:41,704 [qtp1359176305-26] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> UNAUTHORIZED - 3.610 ms
+2015-02-27 19:32:41,726 [qtp1359176305-28] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> UNAUTHORIZED - 867.8 μs
+2015-02-27 19:32:41,767 [qtp1359176305-29] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> UNAUTHORIZED - 764.5 μs
+2015-02-27 19:32:49,059 [qtp1359176305-26] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> OK - 55.71 ms
+2015-02-27 19:32:49,993 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.851 ms
+2015-02-27 19:32:50,030 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.206 ms
+2015-02-27 19:32:50,124 [qtp1359176305-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.070 ms
+2015-02-27 19:32:50,127 [qtp1359176305-33] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 5.626 ms
+2015-02-27 19:32:55,938 [qtp1359176305-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 5.626 ms
+2015-02-27 19:32:55,941 [qtp1359176305-33] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.641 ms
+2015-02-27 19:32:56,043 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 9.241 ms
+2015-02-27 19:32:56,048 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.696 ms
+2015-02-27 19:32:56,064 [qtp1359176305-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.898 ms
+2015-02-27 19:32:56,268 [qtp1359176305-33] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-sources >> NOT_FOUND - 11.41 ms
+2015-02-27 19:32:56,303 [qtp1359176305-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 32.80 ms
+2015-02-27 19:32:56,325 [qtp1359176305-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-resources >> NOT_FOUND - 3.199 ms
+2015-02-27 19:32:56,365 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 32.74 ms
+2015-02-27 19:32:56,371 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 41.48 ms
+2015-02-27 19:32:56,372 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 35.73 ms
+2015-02-27 19:32:56,479 [qtp1359176305-33] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 26.89 ms
+2015-02-27 19:32:56,498 [qtp1359176305-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 43.20 ms
+2015-02-27 19:32:56,500 [qtp1359176305-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 38.68 ms
+2015-02-27 19:32:56,528 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 8.160 ms
+2015-02-27 19:32:56,546 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 36.65 ms
+2015-02-27 19:32:56,582 [qtp1359176305-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 35.35 ms
+2015-02-27 19:32:56,610 [qtp1359176305-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 20.06 ms
+2015-02-27 19:32:56,625 [qtp1359176305-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 9.732 ms
+2015-02-27 19:32:56,640 [qtp1359176305-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/spec-recorder-route >> NOT_FOUND - 2.159 ms
+2015-02-27 19:32:56,643 [qtp1359176305-33] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 17.62 ms
+2015-02-27 19:34:39,099 [qtp1359176305-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] DELETE /sessions/current >> OK - 10.92 ms
+2015-02-27 19:34:40,104 [qtp1359176305-34] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> UNAUTHORIZED - 3.586 ms
+2015-02-27 19:34:40,111 [qtp1359176305-33] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> UNAUTHORIZED - 608.5 μs
+2015-02-27 19:34:40,180 [qtp1359176305-26] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 1.358 ms
+2015-02-27 19:34:40,231 [qtp1359176305-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> UNAUTHORIZED - 644.7 μs
+2015-02-27 19:34:40,569 [qtp1359176305-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/login.css - per request factory created in 210.9 ms
+2015-02-27 19:35:01,051 [pool-2-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 279.7 ms
+2015-02-27 19:35:06,529 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2015-02-27 19:35:33,281 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2015-02-27 19:35:33,672 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2015-02-27 19:35:33,673 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> CLEAN << >> TEST MODE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:50414/api/@/ui/
+ --
+
+2015-02-27 19:35:35,857 [qtp265565162-13 ] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2015-02-27 19:35:36,025 [qtp265565162-13 ] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2015-02-27 19:35:36,184 [qtp265565162-13 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /hello ? who=xavier - per request factory created in 2.074 s
+2015-02-27 19:35:36,209 [qtp265565162-13 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /hello ? who=xavier >> OK - 24.97 ms
+2015-02-27 19:35:37,446 [qtp265565162-13 ] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2015-02-27 19:35:37,494 [qtp265565162-13 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /message - per request factory created in 688.1 ms
+2015-02-27 19:35:37,541 [qtp265565162-13 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /message >> OK - 45.55 ms
+2015-02-27 19:35:39,195 [qtp265565162-13 ] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2015-02-27 19:35:39,240 [qtp265565162-13 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /message - per request factory created in 809.5 ms
+2015-02-27 19:35:39,257 [qtp265565162-13 ] [user1     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /message >> OK - 15.22 ms
+2015-02-27 19:35:40,406 [qtp265565162-13 ] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2015-02-27 19:35:40,523 [qtp265565162-13 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /message - per request factory created in 748.9 ms
+2015-02-27 19:35:40,538 [qtp265565162-13 ] [user2     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /message >> FORBIDDEN - 15.10 ms
+2015-02-27 19:39:12,660 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2015-02-27 19:39:13,512 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2015-02-27 19:39:13,513 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2015-02-27 19:39:13,594 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2015-02-27 19:39:15,735 [pool-1-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 5 sources compiled in 1.928 s
+2015-02-27 19:39:16,077 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2015-02-27 19:39:16,104 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src/main/java, src/main/resources]; current location is /home/justin/app1/.
+2015-02-27 19:39:17,529 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2015-02-27 19:39:17,638 [main            ] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2015-02-27 19:39:31,693 [qtp1994108941-21] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2015-02-27 19:39:31,822 [qtp1994108941-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/login.html - per request factory created in 448.7 ms
+2015-02-27 19:39:32,296 [qtp1994108941-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/alertify.core.css - per request factory created in 374.5 ms
+2015-02-27 19:39:32,368 [qtp1994108941-25] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/login.css - per request factory created in 393.5 ms
+2015-02-27 19:39:32,376 [qtp1994108941-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/bootstrap.min.css - per request factory created in 452.8 ms
+2015-02-27 19:39:32,394 [qtp1994108941-24] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/admin.css - per request factory created in 433.6 ms
+2015-02-27 19:39:32,415 [qtp1994108941-23] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/alertify.default.css - per request factory created in 466.0 ms
+2015-02-27 19:39:32,739 [qtp1994108941-26] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/Spark-md5.min.js - per request factory created in 400.4 ms
+2015-02-27 19:39:32,753 [qtp1994108941-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/jquery.querystring.js - per request factory created in 444.8 ms
+2015-02-27 19:39:32,789 [qtp1994108941-25] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/alertify.min.js - per request factory created in 389.0 ms
+2015-02-27 19:39:32,808 [qtp1994108941-24] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/login.js - per request factory created in 361.0 ms
+2015-02-27 19:39:46,083 [qtp1994108941-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> OK - 292.8 ms
+2015-02-27 19:39:46,773 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.341 ms
+2015-02-27 19:39:46,775 [qtp1994108941-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 13.93 ms
+2015-02-27 19:39:55,992 [qtp1994108941-25] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/slick.grid.css - per request factory created in 284.9 ms
+2015-02-27 19:39:56,008 [qtp1994108941-26] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/stats/css/app.css - per request factory created in 298.3 ms
+2015-02-27 19:39:56,046 [qtp1994108941-23] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/slick.dataview.js - per request factory created in 290.5 ms
+2015-02-27 19:39:56,056 [qtp1994108941-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/stats/js/app.js - per request factory created in 255.1 ms
+2015-02-27 19:39:56,078 [qtp1994108941-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/slick.grid.js - per request factory created in 324.4 ms
+2015-02-27 19:39:56,799 [qtp1994108941-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 12.66 ms
+2015-02-27 19:39:56,846 [qtp1994108941-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.522 ms
+2015-02-27 19:39:56,968 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 7.882 ms
+2015-02-27 19:39:56,971 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 7.901 ms
+2015-02-27 19:39:57,193 [qtp1994108941-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/restx-stats >> OK - 2.716 ms
+2015-02-27 19:39:59,037 [qtp1994108941-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 6.897 ms
+2015-02-27 19:39:59,045 [qtp1994108941-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 9.939 ms
+2015-02-27 19:39:59,128 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 18.02 ms
+2015-02-27 19:39:59,136 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.165 ms
+2015-02-27 19:39:59,726 [qtp1994108941-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/metrics >> OK - 348.7 ms
+2015-02-27 19:39:59,740 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/monitor >> OK - 341.4 ms
+2015-02-27 19:40:31,835 [qtp1994108941-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/securityHandling.js - per request factory created in 208.2 ms
+2015-02-27 19:40:31,878 [qtp1994108941-27] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/log/js/app.js - per request factory created in 252.8 ms
+2015-02-27 19:40:31,886 [qtp1994108941-24] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/log/css/app.css - per request factory created in 268.8 ms
+2015-02-27 19:40:31,885 [qtp1994108941-26] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/bootstrap.min.css - per request factory created in 271.2 ms
+2015-02-27 19:40:31,883 [qtp1994108941-23] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/admin.css - per request factory created in 268.1 ms
+2015-02-27 19:40:32,566 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.062 ms
+2015-02-27 19:40:32,671 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 21.89 ms
+2015-02-27 19:40:32,762 [qtp1994108941-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.846 ms
+2015-02-27 19:40:32,902 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 8.648 ms
+2015-02-27 19:40:32,956 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/logs >> OK - 48.09 ms
+2015-02-27 19:40:53,628 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/logs >> OK - 88.09 ms
+2015-02-27 19:40:58,516 [qtp1994108941-23] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/bootstrap.min.css - per request factory created in 409.5 ms
+2015-02-27 19:40:58,516 [qtp1994108941-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/errors/css/app.css - per request factory created in 404.6 ms
+2015-02-27 19:40:59,246 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.377 ms
+2015-02-27 19:40:59,259 [qtp1994108941-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.210 ms
+2015-02-27 19:40:59,261 [qtp1994108941-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/errors/descriptors >> OK - 37.76 ms
+2015-02-27 19:40:59,345 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 7.606 ms
+2015-02-27 19:40:59,357 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.526 ms
+2015-02-27 19:41:00,543 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/logs >> OK - 6.978 ms
+2015-02-27 19:41:16,970 [qtp1994108941-26] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/securityHandling.js - per request factory created in 324.2 ms
+2015-02-27 19:41:17,006 [qtp1994108941-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/bootstrap.min.css - per request factory created in 377.8 ms
+2015-02-27 19:41:17,026 [qtp1994108941-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/admin.js - per request factory created in 378.8 ms
+2015-02-27 19:41:17,074 [qtp1994108941-23] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/api-docs/css/docs.css - per request factory created in 407.9 ms
+2015-02-27 19:41:18,563 [qtp1994108941-27] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/admin.js - per request factory created in 672.3 ms
+2015-02-27 19:41:18,617 [qtp1994108941-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/config/css/app.css - per request factory created in 959.3 ms
+2015-02-27 19:41:18,753 [qtp1994108941-26] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/securityHandling.js - per request factory created in 862.6 ms
+2015-02-27 19:41:18,759 [qtp1994108941-24] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/admin.css - per request factory created in 1.078 s
+2015-02-27 19:41:18,764 [qtp1994108941-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/config/js/app.js - per request factory created in 1.101 s
+2015-02-27 19:41:18,773 [qtp1994108941-28] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/bootstrap.min.css - per request factory created in 1.093 s
+2015-02-27 19:41:18,853 [qtp1994108941-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /sessions/current - per request factory created in 210.0 ms
+2015-02-27 19:41:18,859 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 5.153 ms
+2015-02-27 19:41:18,894 [qtp1994108941-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 9.173 ms
+2015-02-27 19:41:19,138 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.954 ms
+2015-02-27 19:41:19,139 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 5.236 ms
+2015-02-27 19:41:19,239 [qtp1994108941-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 5.484 ms
+2015-02-27 19:41:19,694 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-resources >> NOT_FOUND - 2.395 ms
+2015-02-27 19:41:19,731 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-sources >> NOT_FOUND - 23.47 ms
+2015-02-27 19:41:19,844 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 168.1 ms
+2015-02-27 19:41:19,881 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 32.56 ms
+2015-02-27 19:41:19,925 [qtp1994108941-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 29.26 ms
+2015-02-27 19:41:19,927 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 43.13 ms
+2015-02-27 19:41:19,942 [qtp1994108941-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 41.12 ms
+2015-02-27 19:41:19,992 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 20.35 ms
+2015-02-27 19:41:20,051 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 33.54 ms
+2015-02-27 19:41:20,087 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 38.91 ms
+2015-02-27 19:41:20,107 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 20.66 ms
+2015-02-27 19:41:20,139 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/spec-recorder-route >> NOT_FOUND - 6.722 ms
+2015-02-27 19:41:20,144 [qtp1994108941-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 39.94 ms
+2015-02-27 19:41:20,155 [qtp1994108941-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 35.80 ms
+2015-02-27 19:41:20,214 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 22.56 ms
+2015-02-27 19:41:20,239 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 26.51 ms
+2015-02-27 19:41:20,619 [qtp1994108941-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/config/elements >> OK - 23.23 ms
+2015-02-27 19:41:20,986 [qtp1994108941-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.763 ms
+2015-02-27 19:41:20,989 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 3.578 ms
+2015-02-27 19:41:21,207 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 8.005 ms
+2015-02-27 19:41:21,218 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.629 ms
+2015-02-27 19:41:43,621 [qtp1994108941-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/metrics >> OK - 224.4 ms
+2015-02-27 19:41:45,146 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/metrics >> OK - 54.90 ms
+2015-02-27 19:41:59,316 [qtp1994108941-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/monitor >> OK - 52.04 ms
+2015-02-27 19:42:15,733 [qtp1994108941-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.966 ms
+2015-02-27 19:42:15,738 [qtp1994108941-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 11.61 ms
+2015-02-27 19:42:16,052 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/restx.security.SessionResource.notes.json >> NOT_FOUND - 45.20 ms
+2015-02-27 19:42:16,261 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/sessions&httpMethod=POST >> OK - 238.8 ms
+2015-02-27 19:42:28,424 [qtp1994108941-29] [admin     ] WARN  restx.StdRestxMainRouter - request raised JsonParseException
+com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'hi': was expecting ('true', 'false' or 'null')
+ at [Source: java.io.ByteArrayInputStream@11bab03f; line: 1, column: 5]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1524) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:557) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._reportInvalidToken(UTF8StreamJsonParser.java:3094) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2339) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:817) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:697) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.databind.ObjectReader._initForReading(ObjectReader.java:1347) ~[jackson-databind-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1253) ~[jackson-databind-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:865) ~[jackson-databind-2.3.3.jar:2.3.3]
+	at restx.jackson.JsonEntityRequestBodyReader.readBody(JsonEntityRequestBodyReader.java:35) ~[restx-core-0.33.1.jar:na]
+	at restx.entity.StdEntityRoute.handle(StdEntityRoute.java:136) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.ResponseCloserFilter.handle(ResponseCloserFilter.java:28) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.CacheFilter$1.handle(CacheFilter.java:51) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.security.RestxSessionLogFilter.handle(RestxSessionLogFilter.java:43) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.security.RestxSessionCookieFilter.handle(RestxSessionCookieFilter.java:99) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.stats.RestxStatsCollectionFilter.handle(RestxStatsCollectionFilter.java:39) ~[restx-stats-admin-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:152) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:217) [restx-core-0.33.1.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:154) [restx-core-0.33.1.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:326) [restx-core-0.33.1.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:48) [restx-servlet-0.33.1.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770) [javax.servlet-api-3.0.1.jar:3.0.1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [jetty-security-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_76]
+2015-02-27 19:42:28,498 [qtp1994108941-29] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> BAD_REQUEST - 114.6 ms
+2015-02-27 19:42:28,512 [qtp1994108941-29] [          ] INFO  restx.RestxMainRouterFactory - saved recorded spec in src/main/resources/specs/session/Authenticate_20150227_194228.spec.yaml
+2015-02-27 19:42:36,641 [qtp1994108941-28] [admin     ] WARN  restx.StdRestxMainRouter - request raised JsonParseException
+com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'hi': was expecting ('true', 'false' or 'null')
+ at [Source: restx.servlet.HttpServletRestxRequest$1@22e7b3bf; line: 1, column: 5]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1524) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:557) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._reportInvalidToken(UTF8StreamJsonParser.java:3094) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2339) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:817) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:697) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.databind.ObjectReader._initForReading(ObjectReader.java:1347) ~[jackson-databind-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1253) ~[jackson-databind-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:865) ~[jackson-databind-2.3.3.jar:2.3.3]
+	at restx.jackson.JsonEntityRequestBodyReader.readBody(JsonEntityRequestBodyReader.java:35) ~[restx-core-0.33.1.jar:na]
+	at restx.entity.StdEntityRoute.handle(StdEntityRoute.java:136) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.ResponseCloserFilter.handle(ResponseCloserFilter.java:28) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.CacheFilter$1.handle(CacheFilter.java:51) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.security.RestxSessionLogFilter.handle(RestxSessionLogFilter.java:43) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.security.RestxSessionCookieFilter.handle(RestxSessionCookieFilter.java:99) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.stats.RestxStatsCollectionFilter.handle(RestxStatsCollectionFilter.java:39) ~[restx-stats-admin-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:152) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:217) [restx-core-0.33.1.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:174) [restx-core-0.33.1.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:326) [restx-core-0.33.1.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:48) [restx-servlet-0.33.1.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770) [javax.servlet-api-3.0.1.jar:3.0.1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [jetty-security-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_76]
+2015-02-27 19:42:36,682 [qtp1994108941-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> BAD_REQUEST - 41.98 ms
+2015-02-27 19:42:38,415 [qtp1994108941-27] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "sfdf" }
+2015-02-27 19:42:38,417 [qtp1994108941-27] [          ] WARN  restx.StdRestxMainRouter - request raised JsonParseException
+com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'hi': was expecting ('true', 'false' or 'null')
+ at [Source: restx.servlet.HttpServletRestxRequest$1@375ef754; line: 1, column: 5]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1524) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:557) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._reportInvalidToken(UTF8StreamJsonParser.java:3094) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2339) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:817) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:697) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.databind.ObjectReader._initForReading(ObjectReader.java:1347) ~[jackson-databind-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1253) ~[jackson-databind-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:865) ~[jackson-databind-2.3.3.jar:2.3.3]
+	at restx.jackson.JsonEntityRequestBodyReader.readBody(JsonEntityRequestBodyReader.java:35) ~[restx-core-0.33.1.jar:na]
+	at restx.entity.StdEntityRoute.handle(StdEntityRoute.java:136) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.ResponseCloserFilter.handle(ResponseCloserFilter.java:28) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.CacheFilter$1.handle(CacheFilter.java:51) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.security.RestxSessionLogFilter.handle(RestxSessionLogFilter.java:43) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.security.RestxSessionCookieFilter.handle(RestxSessionCookieFilter.java:99) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.stats.RestxStatsCollectionFilter.handle(RestxStatsCollectionFilter.java:39) ~[restx-stats-admin-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:152) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:217) [restx-core-0.33.1.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:174) [restx-core-0.33.1.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:326) [restx-core-0.33.1.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:48) [restx-servlet-0.33.1.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770) [javax.servlet-api-3.0.1.jar:3.0.1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [jetty-security-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_76]
+2015-02-27 19:42:38,430 [qtp1994108941-27] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> BAD_REQUEST - 16.76 ms
+2015-02-27 19:42:55,143 [qtp1994108941-23] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "sfdf" }
+2015-02-27 19:42:55,149 [qtp1994108941-23] [          ] WARN  restx.StdRestxMainRouter - request raised JsonParseException
+com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'hi': was expecting ('true', 'false' or 'null')
+ at [Source: restx.servlet.HttpServletRestxRequest$1@3e9dea1a; line: 1, column: 5]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1524) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:557) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._reportInvalidToken(UTF8StreamJsonParser.java:3094) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2339) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:817) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:697) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.databind.ObjectReader._initForReading(ObjectReader.java:1347) ~[jackson-databind-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1253) ~[jackson-databind-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:865) ~[jackson-databind-2.3.3.jar:2.3.3]
+	at restx.jackson.JsonEntityRequestBodyReader.readBody(JsonEntityRequestBodyReader.java:35) ~[restx-core-0.33.1.jar:na]
+	at restx.entity.StdEntityRoute.handle(StdEntityRoute.java:136) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.ResponseCloserFilter.handle(ResponseCloserFilter.java:28) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.CacheFilter$1.handle(CacheFilter.java:51) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.security.RestxSessionLogFilter.handle(RestxSessionLogFilter.java:43) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.security.RestxSessionCookieFilter.handle(RestxSessionCookieFilter.java:99) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.stats.RestxStatsCollectionFilter.handle(RestxStatsCollectionFilter.java:39) ~[restx-stats-admin-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:152) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:217) [restx-core-0.33.1.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:174) [restx-core-0.33.1.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:326) [restx-core-0.33.1.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:48) [restx-servlet-0.33.1.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770) [javax.servlet-api-3.0.1.jar:3.0.1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [jetty-security-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_76]
+2015-02-27 19:42:55,158 [qtp1994108941-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> BAD_REQUEST - 20.06 ms
+2015-02-27 19:43:11,054 [qtp1994108941-27] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "sfdf" }
+2015-02-27 19:43:11,056 [qtp1994108941-27] [          ] WARN  restx.StdRestxMainRouter - request raised JsonParseException
+com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'hi': was expecting ('true', 'false' or 'null')
+ at [Source: restx.servlet.HttpServletRestxRequest$1@e56dbc1; line: 1, column: 5]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1524) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:557) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._reportInvalidToken(UTF8StreamJsonParser.java:3094) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2339) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:817) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:697) ~[jackson-core-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.databind.ObjectReader._initForReading(ObjectReader.java:1347) ~[jackson-databind-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1253) ~[jackson-databind-2.3.3.jar:2.3.3]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:865) ~[jackson-databind-2.3.3.jar:2.3.3]
+	at restx.jackson.JsonEntityRequestBodyReader.readBody(JsonEntityRequestBodyReader.java:35) ~[restx-core-0.33.1.jar:na]
+	at restx.entity.StdEntityRoute.handle(StdEntityRoute.java:136) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.ResponseCloserFilter.handle(ResponseCloserFilter.java:28) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.CacheFilter$1.handle(CacheFilter.java:51) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.security.RestxSessionLogFilter.handle(RestxSessionLogFilter.java:43) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.security.RestxSessionCookieFilter.handle(RestxSessionCookieFilter.java:99) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.stats.RestxStatsCollectionFilter.handle(RestxStatsCollectionFilter.java:39) ~[restx-stats-admin-0.33.1.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.33.1.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:152) ~[restx-core-0.33.1.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:217) [restx-core-0.33.1.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:174) [restx-core-0.33.1.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:326) [restx-core-0.33.1.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:48) [restx-servlet-0.33.1.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770) [javax.servlet-api-3.0.1.jar:3.0.1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [jetty-security-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_76]
+2015-02-27 19:43:11,058 [qtp1994108941-27] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> BAD_REQUEST - 4.540 ms
+2015-02-27 19:43:21,171 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 9.381 ms
+2015-02-27 19:43:21,378 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-sources >> NOT_FOUND - 17.15 ms
+2015-02-27 19:43:21,391 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-resources >> NOT_FOUND - 14.22 ms
+2015-02-27 19:43:21,399 [qtp1994108941-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 45.27 ms
+2015-02-27 19:43:21,428 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 47.24 ms
+2015-02-27 19:43:21,462 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 35.67 ms
+2015-02-27 19:43:21,465 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 19.61 ms
+2015-02-27 19:43:21,547 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 11.79 ms
+2015-02-27 19:43:21,573 [qtp1994108941-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 29.55 ms
+2015-02-27 19:43:21,595 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 24.72 ms
+2015-02-27 19:43:21,618 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 16.85 ms
+2015-02-27 19:43:21,619 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 32.74 ms
+2015-02-27 19:43:21,624 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 28.92 ms
+2015-02-27 19:43:21,697 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 20.21 ms
+2015-02-27 19:43:21,704 [qtp1994108941-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/spec-recorder-route >> NOT_FOUND - 4.277 ms
+2015-02-27 19:43:21,743 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 46.34 ms
+2015-02-27 19:43:21,769 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 28.38 ms
+2015-02-27 19:43:46,981 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sessionStats >> OK - 24.57 ms
+2015-02-27 19:43:51,150 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/thread-dump >> OK - 197.5 ms
+2015-02-27 19:43:52,946 [qtp1994108941-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sessionStats >> OK - 2.209 ms
+2015-02-27 19:43:54,139 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/metrics >> OK - 132.2 ms
+2015-02-27 19:43:54,147 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/monitor >> OK - 157.5 ms
+2015-02-27 19:44:02,203 [qtp1994108941-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 5.449 ms
+2015-02-27 19:44:02,244 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 6.919 ms
+2015-02-27 19:44:02,284 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.685 ms
+2015-02-27 19:44:02,306 [qtp1994108941-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.694 ms
+2015-02-27 19:44:07,513 [qtp1994108941-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.577 ms
+2015-02-27 19:44:07,514 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.881 ms
+2015-02-27 19:44:07,630 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.031 ms
+2015-02-27 19:44:07,659 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.079 ms
+2015-02-27 19:44:07,999 [qtp1994108941-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/metrics >> OK - 126.2 ms
+2015-02-27 19:44:08,007 [qtp1994108941-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/monitor >> OK - 136.8 ms
+2015-02-27 19:44:15,567 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 4.160 ms
+2015-02-27 19:44:15,571 [qtp1994108941-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.878 ms
+2015-02-27 19:44:15,641 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.679 ms
+2015-02-27 19:44:15,669 [qtp1994108941-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.555 ms
+2015-02-27 19:44:15,733 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.291 ms
+2015-02-27 19:44:15,923 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 32.88 ms
+2015-02-27 19:44:15,976 [qtp1994108941-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-sources >> NOT_FOUND - 9.503 ms
+2015-02-27 19:44:15,978 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-resources >> NOT_FOUND - 12.22 ms
+2015-02-27 19:44:15,999 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 31.74 ms
+2015-02-27 19:44:16,031 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 18.75 ms
+2015-02-27 19:44:16,032 [qtp1994108941-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 37.51 ms
+2015-02-27 19:44:16,112 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 41.75 ms
+2015-02-27 19:44:16,167 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 35.48 ms
+2015-02-27 19:44:16,177 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 42.53 ms
+2015-02-27 19:44:16,180 [qtp1994108941-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 40.74 ms
+2015-02-27 19:44:16,193 [qtp1994108941-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 14.76 ms
+2015-02-27 19:44:16,211 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 29.47 ms
+2015-02-27 19:44:16,265 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 18.42 ms
+2015-02-27 19:44:16,343 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/spec-recorder-route >> NOT_FOUND - 15.77 ms
+2015-02-27 19:44:16,382 [qtp1994108941-28] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 29.29 ms
+2015-02-27 19:44:16,386 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 24.39 ms
+2015-02-27 19:44:24,252 [qtp1994108941-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 7.865 ms
+2015-02-27 19:44:24,406 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 5.483 ms
+2015-02-27 19:44:24,428 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/app1.rest.HelloResource.notes.json >> NOT_FOUND - 6.530 ms
+2015-02-27 19:44:24,542 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/message&httpMethod=GET >> OK - 115.3 ms
+2015-02-27 19:44:30,129 [qtp1994108941-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 3.609 ms
+2015-02-27 19:44:30,142 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 12.96 ms
+2015-02-27 19:44:30,243 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/app1.rest.HelloResource.notes.json >> NOT_FOUND - 2.144 ms
+2015-02-27 19:44:30,260 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/hello&httpMethod=GET >> OK - 6.790 ms
+2015-02-27 19:44:33,123 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.283 ms
+2015-02-27 19:44:33,159 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 12.27 ms
+2015-02-27 19:44:33,249 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/app1.rest.HelloResource.notes.json >> NOT_FOUND - 2.217 ms
+2015-02-27 19:44:33,294 [qtp1994108941-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/message&httpMethod=GET >> OK - 7.309 ms
+2015-02-27 19:44:45,920 [qtp1994108941-21] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "hi tester" }
+2015-02-27 19:44:45,923 [qtp1994108941-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /message >> UNAUTHORIZED - 3.247 ms
+2015-02-27 19:44:46,307 [qtp1994108941-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/bootstrap.min.css - per request factory created in 222.7 ms
+2015-02-27 19:45:09,484 [qtp1994108941-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> OK - 68.19 ms
+2015-02-27 19:45:10,474 [qtp1994108941-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 3.811 ms
+2015-02-27 19:45:10,477 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 5.406 ms
+2015-02-27 19:45:10,517 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.442 ms
+2015-02-27 19:45:10,555 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.650 ms
+2015-02-27 19:45:10,652 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-resources >> NOT_FOUND - 9.179 ms
+2015-02-27 19:45:10,682 [qtp1994108941-33] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 19.88 ms
+2015-02-27 19:45:10,747 [qtp1994108941-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-sources >> NOT_FOUND - 6.098 ms
+2015-02-27 19:45:10,755 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 45.29 ms
+2015-02-27 19:45:10,775 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 40.34 ms
+2015-02-27 19:45:10,800 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 42.17 ms
+2015-02-27 19:45:10,828 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 33.76 ms
+2015-02-27 19:45:10,854 [qtp1994108941-33] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 34.55 ms
+2015-02-27 19:45:10,919 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 39.78 ms
+2015-02-27 19:45:10,923 [qtp1994108941-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 23.02 ms
+2015-02-27 19:45:10,939 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 45.32 ms
+2015-02-27 19:45:10,971 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 44.28 ms
+2015-02-27 19:45:10,987 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 13.76 ms
+2015-02-27 19:45:11,011 [qtp1994108941-33] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 22.35 ms
+2015-02-27 19:45:11,027 [qtp1994108941-32] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 8.209 ms
+2015-02-27 19:45:11,055 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/spec-recorder-route >> NOT_FOUND - 3.616 ms
+2015-02-27 19:45:11,070 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 10.77 ms
+2015-02-27 19:45:18,842 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.262 ms
+2015-02-27 19:45:18,867 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 11.86 ms
+2015-02-27 19:45:19,071 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/app1.rest.HelloResource.notes.json >> NOT_FOUND - 6.075 ms
+2015-02-27 19:45:19,089 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/hello&httpMethod=GET >> OK - 14.89 ms
+2015-02-27 19:45:22,151 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.212 ms
+2015-02-27 19:45:22,188 [qtp1994108941-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 9.799 ms
+2015-02-27 19:45:22,304 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/app1.rest.HelloResource.notes.json >> NOT_FOUND - 4.721 ms
+2015-02-27 19:45:22,310 [qtp1994108941-33] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/message&httpMethod=GET >> OK - 9.766 ms
+2015-02-27 19:45:32,557 [qtp1994108941-23] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "ty" }
+2015-02-27 19:45:32,563 [qtp1994108941-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /message >> UNAUTHORIZED - 6.718 ms
+2015-02-27 19:45:36,917 [qtp1994108941-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.486 ms
+2015-02-27 19:45:36,948 [qtp1994108941-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 8.207 ms
+2015-02-27 19:45:37,069 [qtp1994108941-31] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/app1.rest.HelloResource.notes.json >> NOT_FOUND - 1.898 ms
+2015-02-27 19:45:37,090 [qtp1994108941-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/message&httpMethod=GET >> OK - 10.98 ms
+2015-02-27 19:45:46,092 [pool-2-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 411.9 ms
+2015-02-27 19:46:09,507 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2015-02-27 19:52:04,663 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2015-02-27 19:52:05,530 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2015-02-27 19:52:05,561 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2015-02-27 19:52:05,636 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2015-02-27 19:52:06,142 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2015-02-27 19:52:06,177 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src/main/java, src/main/resources]; current location is /home/justin/app1/.
+2015-02-27 19:52:07,725 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2015-02-27 19:52:07,841 [main            ] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2015-02-27 19:52:58,651 [qtp584297575-21 ] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2015-02-27 19:52:59,004 [qtp584297575-21 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/ - per request factory created in 836.2 ms
+2015-02-27 19:52:59,359 [qtp584297575-21 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:52:59,967 [qtp584297575-21 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/securityHandling.js - per request factory created in 499.6 ms
+2015-02-27 19:52:59,968 [qtp584297575-21 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:52:59,989 [qtp584297575-24 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/admin.js - per request factory created in 488.1 ms
+2015-02-27 19:53:00,014 [qtp584297575-24 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:53:00,019 [qtp584297575-22 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/bootstrap.min.css - per request factory created in 578.5 ms
+2015-02-27 19:53:00,023 [qtp584297575-22 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:53:00,038 [qtp584297575-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/admin.css - per request factory created in 589.9 ms
+2015-02-27 19:53:00,039 [qtp584297575-23 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:53:00,341 [qtp584297575-25 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/img/glyphicons-halflings.png - per request factory created in 237.1 ms
+2015-02-27 19:53:00,345 [qtp584297575-25 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:53:00,786 [qtp584297575-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /sessions/current - per request factory created in 255.4 ms
+2015-02-27 19:53:00,795 [qtp584297575-24 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/pages - per request factory created in 276.1 ms
+2015-02-27 19:53:00,799 [qtp584297575-24 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:53:00,796 [qtp584297575-23 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:53:00,811 [qtp584297575-23 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> UNAUTHORIZED - 16.39 ms
+2015-02-27 19:53:00,812 [qtp584297575-24 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> UNAUTHORIZED - 12.41 ms
+2015-02-27 19:53:00,942 [qtp584297575-21 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:53:01,339 [qtp584297575-21 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/login.css - per request factory created in 301.5 ms
+2015-02-27 19:53:01,349 [qtp584297575-21 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:53:01,369 [qtp584297575-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/alertify.default.css - per request factory created in 378.9 ms
+2015-02-27 19:53:01,389 [qtp584297575-23 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:53:01,474 [qtp584297575-25 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/bootstrap.min.css - per request factory created in 487.2 ms
+2015-02-27 19:53:01,492 [qtp584297575-25 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:53:01,470 [qtp584297575-22 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/alertify.core.css - per request factory created in 475.2 ms
+2015-02-27 19:53:01,503 [qtp584297575-22 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:53:01,517 [qtp584297575-24 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/admin.css - per request factory created in 522.4 ms
+2015-02-27 19:53:01,519 [qtp584297575-24 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:53:01,615 [qtp584297575-26 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/Spark-md5.min.js - per request factory created in 533.4 ms
+2015-02-27 19:53:01,616 [qtp584297575-26 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:53:01,688 [qtp584297575-21 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/jquery.querystring.js - per request factory created in 328.2 ms
+2015-02-27 19:53:01,695 [qtp584297575-21 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:53:01,742 [qtp584297575-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/alertify.min.js - per request factory created in 323.0 ms
+2015-02-27 19:53:01,744 [qtp584297575-23 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:53:01,802 [qtp584297575-25 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/login.js - per request factory created in 289.5 ms
+2015-02-27 19:53:01,807 [qtp584297575-25 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:53:14,770 [qtp584297575-27 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2015-03-29T19:45:09.483+05:30","principal":"admin","sessionKey":"9413cf33-4193-4aa0-8fea-612d519dd6d2"}. Ignoring session cookie.
+2015-02-27 19:53:15,019 [qtp584297575-27 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> OK - 248.7 ms
+2015-02-27 19:53:15,411 [qtp584297575-24 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/bootstrap.min.css - per request factory created in 226.1 ms
+2015-02-27 19:53:15,420 [qtp584297575-26 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/admin.css - per request factory created in 232.6 ms
+2015-02-27 19:53:15,414 [qtp584297575-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/securityHandling.js - per request factory created in 213.4 ms
+2015-02-27 19:53:15,895 [qtp584297575-27 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 15.93 ms
+2015-02-27 19:53:15,938 [qtp584297575-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.500 ms
+2015-02-27 19:53:19,939 [qtp584297575-25 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/alertify.core.css - per request factory created in 272.8 ms
+2015-02-27 19:53:19,954 [qtp584297575-27 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/alertify.default.css - per request factory created in 279.3 ms
+2015-02-27 19:53:19,984 [qtp584297575-22 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/admin.css - per request factory created in 312.5 ms
+2015-02-27 19:53:20,138 [qtp584297575-26 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/alertify.min.js - per request factory created in 324.1 ms
+2015-02-27 19:53:20,220 [qtp584297575-24 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/admin.js - per request factory created in 378.8 ms
+2015-02-27 19:53:20,248 [qtp584297575-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/securityHandling.js - per request factory created in 431.3 ms
+2015-02-27 19:53:20,291 [qtp584297575-25 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/sources/css/app.css - per request factory created in 237.2 ms
+2015-02-27 19:53:21,160 [qtp584297575-25 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 12.26 ms
+2015-02-27 19:53:21,174 [qtp584297575-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 12.42 ms
+2015-02-27 19:53:21,293 [qtp584297575-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.323 ms
+2015-02-27 19:53:21,310 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.908 ms
+2015-02-27 19:53:22,751 [qtp584297575-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/bootstrap.min.css - per request factory created in 210.1 ms
+2015-02-27 19:53:22,812 [qtp584297575-27 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/securityHandling.js - per request factory created in 215.4 ms
+2015-02-27 19:53:22,857 [qtp584297575-24 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/admin.js - per request factory created in 257.6 ms
+2015-02-27 19:53:23,012 [qtp584297575-25 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/slick.grid.css - per request factory created in 309.2 ms
+2015-02-27 19:53:23,129 [qtp584297575-26 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/stats/css/app.css - per request factory created in 302.8 ms
+2015-02-27 19:53:23,196 [qtp584297575-22 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/slick.core.js - per request factory created in 312.1 ms
+2015-02-27 19:53:23,202 [qtp584297575-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/slick.dataview.js - per request factory created in 315.4 ms
+2015-02-27 19:53:23,212 [qtp584297575-24 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/stats/js/app.js - per request factory created in 313.3 ms
+2015-02-27 19:53:23,233 [qtp584297575-27 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/slick.grid.js - per request factory created in 345.9 ms
+2015-02-27 19:53:23,925 [qtp584297575-28 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.675 ms
+2015-02-27 19:53:23,933 [qtp584297575-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.971 ms
+2015-02-27 19:53:24,079 [qtp584297575-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 19.30 ms
+2015-02-27 19:53:24,102 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.253 ms
+2015-02-27 19:53:24,276 [qtp584297575-25 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/restx-stats >> OK - 2.227 ms
+2015-02-27 19:53:26,207 [qtp584297575-27 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/restx-stats >> OK - 2.362 ms
+2015-02-27 19:54:20,895 [qtp584297575-28 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/admin.css - per request factory created in 205.2 ms
+2015-02-27 19:54:20,916 [qtp584297575-22 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/bootstrap.min.css - per request factory created in 230.8 ms
+2015-02-27 19:54:20,984 [qtp584297575-27 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/slick.grid.js - per request factory created in 254.3 ms
+2015-02-27 19:54:20,981 [qtp584297575-26 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/slick.core.js - per request factory created in 254.0 ms
+2015-02-27 19:54:20,996 [qtp584297575-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/slick.dataview.js - per request factory created in 262.2 ms
+2015-02-27 19:54:21,143 [qtp584297575-24 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/securityHandling.js - per request factory created in 231.7 ms
+2015-02-27 19:54:21,151 [qtp584297575-22 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/monitor/css/app.css - per request factory created in 203.4 ms
+2015-02-27 19:54:21,165 [qtp584297575-28 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/admin.js - per request factory created in 258.0 ms
+2015-02-27 19:54:21,231 [qtp584297575-26 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/monitor/lib/ua-parser.min.js - per request factory created in 233.4 ms
+2015-02-27 19:54:21,235 [qtp584297575-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/monitor/js/app.js - per request factory created in 205.4 ms
+2015-02-27 19:54:21,834 [qtp584297575-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 8.592 ms
+2015-02-27 19:54:21,843 [qtp584297575-27 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 14.24 ms
+2015-02-27 19:54:21,934 [qtp584297575-28 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 11.21 ms
+2015-02-27 19:54:21,943 [qtp584297575-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.725 ms
+2015-02-27 19:54:22,473 [qtp584297575-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/monitor >> OK - 291.0 ms
+2015-02-27 19:54:22,531 [qtp584297575-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/metrics >> OK - 377.0 ms
+2015-02-27 19:54:29,220 [qtp584297575-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/messages/ >> NOT_FOUND - 2.032 ms
+2015-02-27 19:54:34,000 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 6.075 ms
+2015-02-27 19:54:34,023 [qtp584297575-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 14.57 ms
+2015-02-27 19:54:34,093 [qtp584297575-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.810 ms
+2015-02-27 19:54:34,151 [qtp584297575-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.138 ms
+2015-02-27 19:54:34,316 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/logs >> OK - 68.47 ms
+2015-02-27 19:54:38,385 [qtp584297575-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 8.539 ms
+2015-02-27 19:54:38,432 [qtp584297575-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.120 ms
+2015-02-27 19:54:38,545 [qtp584297575-28 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 7.028 ms
+2015-02-27 19:54:38,560 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.955 ms
+2015-02-27 19:54:39,800 [qtp584297575-27 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/factory >> OK - 1.198 s
+2015-02-27 19:54:46,878 [qtp584297575-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 3.526 ms
+2015-02-27 19:54:46,882 [qtp584297575-27 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 12.66 ms
+2015-02-27 19:54:47,042 [qtp584297575-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 12.77 ms
+2015-02-27 19:54:47,171 [qtp584297575-24 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /sessions/current - per request factory created in 212.9 ms
+2015-02-27 19:54:47,176 [qtp584297575-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 3.201 ms
+2015-02-27 19:54:47,737 [qtp584297575-28 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/factory >> OK - 708.0 ms
+2015-02-27 19:54:51,792 [qtp584297575-27 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/factory/views/warehouse.html - per request factory created in 369.2 ms
+2015-02-27 19:54:52,643 [qtp584297575-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/warehouse >> OK - 99.41 ms
+2015-02-27 19:56:29,859 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/factory >> OK - 754.2 ms
+2015-02-27 19:56:50,099 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.026 ms
+2015-02-27 19:56:50,151 [qtp584297575-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 10.24 ms
+2015-02-27 19:56:50,236 [qtp584297575-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 9.640 ms
+2015-02-27 19:56:50,238 [qtp584297575-28 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/errors/descriptors >> OK - 16.06 ms
+2015-02-27 19:56:50,241 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 3.339 ms
+2015-02-27 19:56:55,816 [qtp584297575-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 6.098 ms
+2015-02-27 19:56:55,818 [qtp584297575-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 4.271 ms
+2015-02-27 19:56:55,874 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/config/elements >> OK - 19.61 ms
+2015-02-27 19:56:55,915 [qtp584297575-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 3.915 ms
+2015-02-27 19:56:55,918 [qtp584297575-28 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.155 ms
+2015-02-27 19:57:22,028 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.695 ms
+2015-02-27 19:57:22,031 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 6.835 ms
+2015-02-27 19:57:22,074 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.534 ms
+2015-02-27 19:57:22,116 [qtp584297575-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.029 ms
+2015-02-27 19:57:22,194 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 24.77 ms
+2015-02-27 19:57:22,460 [qtp584297575-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-sources >> NOT_FOUND - 6.598 ms
+2015-02-27 19:57:22,461 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-resources >> NOT_FOUND - 5.459 ms
+2015-02-27 19:57:22,519 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 63.24 ms
+2015-02-27 19:57:22,522 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 132.6 ms
+2015-02-27 19:57:22,519 [qtp584297575-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 73.47 ms
+2015-02-27 19:57:22,539 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 88.77 ms
+2015-02-27 19:57:22,682 [qtp584297575-22 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/messages - per request factory created in 206.9 ms
+2015-02-27 19:57:22,683 [qtp584297575-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/config - per request factory created in 211.7 ms
+2015-02-27 19:57:22,714 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 21.99 ms
+2015-02-27 19:57:22,714 [qtp584297575-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 22.04 ms
+2015-02-27 19:57:22,717 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 43.28 ms
+2015-02-27 19:57:22,724 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 12.79 ms
+2015-02-27 19:57:22,732 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 54.10 ms
+2015-02-27 19:57:22,745 [qtp584297575-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 39.40 ms
+2015-02-27 19:57:22,820 [qtp584297575-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 23.94 ms
+2015-02-27 19:57:22,834 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 25.00 ms
+2015-02-27 19:57:22,848 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 8.420 ms
+2015-02-27 19:57:22,884 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/spec-recorder-route >> NOT_FOUND - 10.58 ms
+2015-02-27 19:58:31,401 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 6.688 ms
+2015-02-27 19:58:31,569 [qtp584297575-32 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 4.417 ms
+2015-02-27 19:58:31,586 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/restx.i18n.Messages.notes.json >> NOT_FOUND - 1.792 ms
+2015-02-27 19:58:31,720 [qtp584297575-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/i18n/labels.json&httpMethod=GET >> OK - 181.7 ms
+2015-02-27 19:59:02,600 [qtp584297575-22 ] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "su" }
+2015-02-27 19:59:02,629 [qtp584297575-22 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /i18n/labels.json >> OK - 30.25 ms
+2015-02-27 19:59:13,549 [qtp584297575-29 ] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "suPET" }
+2015-02-27 19:59:13,551 [qtp584297575-29 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /i18n/labels.json >> NOT_MODIFIED - 3.264 ms
+2015-02-27 19:59:18,832 [qtp584297575-30 ] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "suPET" }
+2015-02-27 19:59:18,879 [qtp584297575-30 ] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "suPET" }
+2015-02-27 19:59:18,913 [qtp584297575-30 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /i18n/labels.json >> NOT_MODIFIED - 35.80 ms
+2015-02-27 19:59:18,931 [qtp584297575-30 ] [          ] INFO  restx.RestxMainRouterFactory - saved recorded spec in src/main/resources/specs/messages/Labels.json_20150227_195918.spec.yaml
+2015-02-27 19:59:18,989 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/i18n/labels.json&httpMethod=GET >> OK - 9.588 ms
+2015-02-27 19:59:19,062 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs/specs___messages___Labels.json_20150227_195918.spec.yaml >> OK - 17.35 ms
+2015-02-27 19:59:22,830 [qtp584297575-22 ] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "suPET" }
+2015-02-27 19:59:22,872 [qtp584297575-22 ] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "suPET" }
+2015-02-27 19:59:22,875 [qtp584297575-22 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /i18n/labels.json >> NOT_MODIFIED - 3.907 ms
+2015-02-27 19:59:22,876 [qtp584297575-22 ] [          ] INFO  restx.RestxMainRouterFactory - saved recorded spec in src/main/resources/specs/messages/Labels.json_20150227_195922.spec.yaml
+2015-02-27 19:59:22,927 [pool-5-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - classpath resource updated: specs/messages/Labels.json_20150227_195922.spec.yaml
+2015-02-27 19:59:22,928 [pool-5-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - classpath resource updated: specs/messages/Labels.json_20150227_195922.spec.yaml
+2015-02-27 19:59:36,730 [qtp584297575-24 ] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "suPET" }
+2015-02-27 19:59:36,769 [qtp584297575-24 ] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "suPET" }
+2015-02-27 19:59:36,772 [qtp584297575-24 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /i18n/labels.json >> NOT_MODIFIED - 3.518 ms
+2015-02-27 19:59:36,773 [qtp584297575-24 ] [          ] INFO  restx.RestxMainRouterFactory - saved recorded spec in src/main/resources/specs/messages/Labels.json_20150227_195936.spec.yaml
+2015-02-27 19:59:36,823 [pool-5-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - classpath resource updated: specs/messages/Labels.json_20150227_195936.spec.yaml
+2015-02-27 19:59:36,824 [pool-5-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - classpath resource updated: specs/messages/Labels.json_20150227_195936.spec.yaml
+2015-02-27 19:59:36,841 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/i18n/labels.json&httpMethod=GET >> OK - 12.66 ms
+2015-02-27 19:59:36,930 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs/specs___messages___Labels.json_20150227_195922.spec.yaml >> OK - 19.99 ms
+2015-02-27 19:59:36,956 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs/specs___messages___Labels.json_20150227_195918.spec.yaml >> OK - 27.51 ms
+2015-02-27 19:59:36,959 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs/specs___messages___Labels.json_20150227_195936.spec.yaml >> OK - 25.66 ms
+2015-02-27 19:59:42,505 [qtp584297575-31 ] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "suPET" }
+2015-02-27 19:59:42,508 [qtp584297575-31 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /i18n/labels.json >> NOT_MODIFIED - 3.297 ms
+2015-02-27 19:59:44,395 [qtp584297575-22 ] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "suPET" }
+2015-02-27 19:59:44,400 [qtp584297575-22 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /i18n/labels.json >> NOT_MODIFIED - 6.746 ms
+2015-02-27 20:00:05,019 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.609 ms
+2015-02-27 20:00:05,211 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 26.69 ms
+2015-02-27 20:00:05,228 [qtp584297575-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-sources >> NOT_FOUND - 16.42 ms
+2015-02-27 20:00:05,232 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-resources >> NOT_FOUND - 11.35 ms
+2015-02-27 20:00:05,296 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 41.76 ms
+2015-02-27 20:00:05,303 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 52.72 ms
+2015-02-27 20:00:05,329 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 75.27 ms
+2015-02-27 20:00:05,379 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 32.80 ms
+2015-02-27 20:00:05,420 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 25.73 ms
+2015-02-27 20:00:05,426 [qtp584297575-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 28.01 ms
+2015-02-27 20:00:05,468 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 42.79 ms
+2015-02-27 20:00:05,506 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 22.91 ms
+2015-02-27 20:00:05,507 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 8.629 ms
+2015-02-27 20:00:05,575 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 48.59 ms
+2015-02-27 20:00:05,580 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 26.11 ms
+2015-02-27 20:00:05,593 [qtp584297575-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/spec-recorder-route >> NOT_FOUND - 7.604 ms
+2015-02-27 20:00:05,601 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 20.59 ms
+2015-02-27 20:01:00,671 [qtp584297575-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 3.907 ms
+2015-02-27 20:01:00,690 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 8.604 ms
+2015-02-27 20:01:00,817 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/@/config/elements&httpMethod=GET >> OK - 12.02 ms
+2015-02-27 20:01:00,828 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/restx.config.ConfigResource.notes.json >> NOT_FOUND - 24.25 ms
+2015-02-27 20:01:06,322 [qtp584297575-30 ] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "YUYU" }
+2015-02-27 20:01:06,326 [qtp584297575-30 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/config/elements >> UNAUTHORIZED - 12.31 ms
+2015-02-27 20:01:14,466 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> OK - 65.18 ms
+2015-02-27 20:01:15,296 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 4.144 ms
+2015-02-27 20:01:15,360 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.110 ms
+2015-02-27 20:01:15,404 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.689 ms
+2015-02-27 20:01:15,472 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.834 ms
+2015-02-27 20:01:15,511 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.146 ms
+2015-02-27 20:01:15,627 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 37.56 ms
+2015-02-27 20:01:15,697 [qtp584297575-36 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-sources >> NOT_FOUND - 12.71 ms
+2015-02-27 20:01:15,698 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-resources >> NOT_FOUND - 10.22 ms
+2015-02-27 20:01:15,732 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 42.15 ms
+2015-02-27 20:01:15,733 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 54.09 ms
+2015-02-27 20:01:15,733 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 25.75 ms
+2015-02-27 20:01:15,796 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 34.37 ms
+2015-02-27 20:01:15,892 [qtp584297575-36 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 31.89 ms
+2015-02-27 20:01:15,899 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 35.64 ms
+2015-02-27 20:01:15,907 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 44.24 ms
+2015-02-27 20:01:15,937 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 41.60 ms
+2015-02-27 20:01:15,945 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 48.02 ms
+2015-02-27 20:01:15,972 [qtp584297575-36 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/spec-recorder-route >> NOT_FOUND - 2.424 ms
+2015-02-27 20:01:15,974 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 23.53 ms
+2015-02-27 20:01:16,004 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 8.750 ms
+2015-02-27 20:01:16,027 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 8.950 ms
+2015-02-27 20:01:21,582 [qtp584297575-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 3.422 ms
+2015-02-27 20:01:21,603 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 7.646 ms
+2015-02-27 20:01:21,713 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/restx.apidocs.JsonSchemaResource.notes.json >> NOT_FOUND - 3.068 ms
+2015-02-27 20:01:21,743 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/@/api-docs/schemas/{fqcn}&httpMethod=GET >> OK - 11.33 ms
+2015-02-27 20:02:15,321 [qtp584297575-36 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 12.82 ms
+2015-02-27 20:02:15,353 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-sources >> NOT_FOUND - 19.68 ms
+2015-02-27 20:02:15,359 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-resources >> NOT_FOUND - 8.837 ms
+2015-02-27 20:02:15,379 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 33.59 ms
+2015-02-27 20:02:15,399 [qtp584297575-36 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 7.515 ms
+2015-02-27 20:02:15,468 [qtp584297575-36 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 18.29 ms
+2015-02-27 20:02:15,521 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 31.50 ms
+2015-02-27 20:02:15,531 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 45.36 ms
+2015-02-27 20:02:15,570 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 35.73 ms
+2015-02-27 20:02:15,621 [qtp584297575-36 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 21.06 ms
+2015-02-27 20:02:15,627 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/spec-recorder-route >> NOT_FOUND - 9.130 ms
+2015-02-27 20:02:15,668 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 15.69 ms
+2015-02-27 20:02:15,705 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 19.62 ms
+2015-02-27 20:02:15,727 [qtp584297575-36 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 10.89 ms
+2015-02-27 20:02:15,729 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 17.56 ms
+2015-02-27 20:02:16,124 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 927.2 ms
+2015-02-27 20:02:16,168 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 7.355 ms
+2015-02-27 20:02:31,864 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 9.947 ms
+2015-02-27 20:02:31,874 [qtp584297575-37 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.646 ms
+2015-02-27 20:02:31,970 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/restx.apidocs.SpecsResource.notes.json >> NOT_FOUND - 4.631 ms
+2015-02-27 20:02:31,981 [qtp584297575-36 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/@/specs&httpMethod=GET >> OK - 19.14 ms
+2015-02-27 20:02:56,775 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.528 ms
+2015-02-27 20:02:56,827 [qtp584297575-36 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 7.954 ms
+2015-02-27 20:02:56,910 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-resources >> NOT_FOUND - 5.757 ms
+2015-02-27 20:02:56,912 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-sources >> NOT_FOUND - 4.629 ms
+2015-02-27 20:02:56,992 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 35.69 ms
+2015-02-27 20:02:57,003 [qtp584297575-37 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 35.13 ms
+2015-02-27 20:02:57,008 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 43.71 ms
+2015-02-27 20:02:57,039 [qtp584297575-36 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 40.86 ms
+2015-02-27 20:02:57,097 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 33.93 ms
+2015-02-27 20:02:57,109 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 47.51 ms
+2015-02-27 20:02:57,195 [qtp584297575-37 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 35.84 ms
+2015-02-27 20:02:57,219 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 34.46 ms
+2015-02-27 20:02:57,228 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 53.68 ms
+2015-02-27 20:02:57,228 [qtp584297575-36 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 43.35 ms
+2015-02-27 20:02:57,268 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/spec-recorder-route >> NOT_FOUND - 16.64 ms
+2015-02-27 20:02:57,272 [qtp584297575-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 24.09 ms
+2015-02-27 20:02:57,294 [qtp584297575-37 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 8.483 ms
+2015-02-27 20:03:27,002 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.262 ms
+2015-02-27 20:03:27,028 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 7.435 ms
+2015-02-27 20:03:27,130 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/i18n/labels.json&httpMethod=GET >> OK - 11.75 ms
+2015-02-27 20:03:27,146 [qtp584297575-37 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/restx.i18n.Messages.notes.json >> NOT_FOUND - 2.150 ms
+2015-02-27 20:03:27,225 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs/specs___messages___Labels.json_20150227_195918.spec.yaml >> OK - 24.48 ms
+2015-02-27 20:03:27,256 [qtp584297575-36 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs/specs___messages___Labels.json_20150227_195922.spec.yaml >> OK - 26.44 ms
+2015-02-27 20:03:27,277 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs/specs___messages___Labels.json_20150227_195936.spec.yaml >> OK - 49.19 ms
+2015-02-27 20:03:36,174 [qtp584297575-29 ] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "su" }
+2015-02-27 20:03:36,176 [qtp584297575-29 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /i18n/labels.json >> NOT_MODIFIED - 3.116 ms
+2015-02-27 20:03:55,305 [qtp584297575-34 ] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "su" }
+2015-02-27 20:03:55,308 [qtp584297575-34 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /i18n/labels.json >> NOT_MODIFIED - 3.461 ms
+2015-02-27 20:04:00,464 [qtp584297575-37 ] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "su" }
+2015-02-27 20:04:00,466 [qtp584297575-37 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /i18n/labels.json >> NOT_MODIFIED - 3.078 ms
+2015-02-27 20:04:03,509 [qtp584297575-29 ] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "su" }
+2015-02-27 20:04:03,512 [qtp584297575-29 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /i18n/labels.json >> NOT_MODIFIED - 3.332 ms
+2015-02-27 20:04:50,167 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.726 ms
+2015-02-27 20:04:50,349 [qtp584297575-37 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-sources >> NOT_FOUND - 8.320 ms
+2015-02-27 20:04:50,387 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 40.37 ms
+2015-02-27 20:04:50,388 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-resources >> NOT_FOUND - 10.89 ms
+2015-02-27 20:04:50,415 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 35.37 ms
+2015-02-27 20:04:50,436 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 36.96 ms
+2015-02-27 20:04:50,521 [qtp584297575-37 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 28.07 ms
+2015-02-27 20:04:50,542 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 38.88 ms
+2015-02-27 20:04:50,560 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 35.37 ms
+2015-02-27 20:04:50,562 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 38.15 ms
+2015-02-27 20:04:50,595 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 41.71 ms
+2015-02-27 20:04:50,675 [qtp584297575-37 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 7.970 ms
+2015-02-27 20:04:50,691 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/spec-recorder-route >> NOT_FOUND - 6.649 ms
+2015-02-27 20:04:50,713 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 39.92 ms
+2015-02-27 20:04:50,725 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 27.90 ms
+2015-02-27 20:04:50,756 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 17.84 ms
+2015-02-27 20:04:50,776 [qtp584297575-40 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 9.504 ms
+2015-02-27 20:04:55,547 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.726 ms
+2015-02-27 20:04:55,574 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 8.860 ms
+2015-02-27 20:04:55,677 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/@/specs/{id}&httpMethod=GET >> OK - 17.04 ms
+2015-02-27 20:04:55,733 [qtp584297575-40 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/restx.apidocs.SpecsResource.notes.json >> NOT_FOUND - 1.651 ms
+2015-02-27 20:05:06,379 [qtp584297575-40 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.952 ms
+2015-02-27 20:05:06,405 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.628 ms
+2015-02-27 20:05:08,678 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 14.10 ms
+2015-02-27 20:05:08,684 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 8.363 ms
+2015-02-27 20:05:08,760 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.491 ms
+2015-02-27 20:05:08,771 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 11.66 ms
+2015-02-27 20:05:08,801 [qtp584297575-40 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.567 ms
+2015-02-27 20:05:08,908 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 43.93 ms
+2015-02-27 20:05:08,934 [qtp584297575-37 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-resources >> NOT_FOUND - 5.813 ms
+2015-02-27 20:05:08,937 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-sources >> NOT_FOUND - 1.760 ms
+2015-02-27 20:05:09,005 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 24.70 ms
+2015-02-27 20:05:09,025 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 34.71 ms
+2015-02-27 20:05:09,031 [qtp584297575-40 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 34.76 ms
+2015-02-27 20:05:09,073 [qtp584297575-37 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 20.11 ms
+2015-02-27 20:05:09,090 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 28.60 ms
+2015-02-27 20:05:09,091 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 28.09 ms
+2015-02-27 20:05:09,169 [qtp584297575-37 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 18.39 ms
+2015-02-27 20:05:09,194 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 19.45 ms
+2015-02-27 20:05:09,187 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 18.93 ms
+2015-02-27 20:05:09,200 [qtp584297575-40 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 26.34 ms
+2015-02-27 20:05:09,347 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/spec-recorder-route >> NOT_FOUND - 1.881 ms
+2015-02-27 20:05:09,358 [qtp584297575-37 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 9.493 ms
+2015-02-27 20:05:09,386 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 28.96 ms
+2015-02-27 20:06:04,297 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.659 ms
+2015-02-27 20:06:04,324 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 7.007 ms
+2015-02-27 20:06:04,458 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/restx.i18n.Messages.notes.json >> NOT_FOUND - 4.841 ms
+2015-02-27 20:06:04,476 [qtp584297575-40 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/i18n/labels.json&httpMethod=GET >> OK - 9.255 ms
+2015-02-27 20:06:04,553 [qtp584297575-34 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs/specs___messages___Labels.json_20150227_195936.spec.yaml >> OK - 20.25 ms
+2015-02-27 20:06:04,593 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs/specs___messages___Labels.json_20150227_195918.spec.yaml >> OK - 30.65 ms
+2015-02-27 20:06:04,595 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs/specs___messages___Labels.json_20150227_195922.spec.yaml >> OK - 28.36 ms
+2015-02-27 20:06:13,235 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 2.612 ms
+2015-02-27 20:06:13,314 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 24.41 ms
+2015-02-27 20:06:13,413 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-resources >> NOT_FOUND - 12.79 ms
+2015-02-27 20:06:13,419 [qtp584297575-40 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/mount-sources >> NOT_FOUND - 14.37 ms
+2015-02-27 20:06:13,457 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 33.37 ms
+2015-02-27 20:06:13,500 [qtp584297575-42 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 32.77 ms
+2015-02-27 20:06:13,504 [qtp584297575-41 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 34.95 ms
+2015-02-27 20:06:13,530 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 37.12 ms
+2015-02-27 20:06:13,575 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 38.17 ms
+2015-02-27 20:06:13,577 [qtp584297575-40 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 47.80 ms
+2015-02-27 20:06:13,666 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 35.95 ms
+2015-02-27 20:06:13,689 [qtp584297575-41 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 17.08 ms
+2015-02-27 20:06:13,692 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 24.12 ms
+2015-02-27 20:06:13,704 [qtp584297575-42 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 24.72 ms
+2015-02-27 20:06:13,714 [qtp584297575-40 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/spec-recorder-route >> NOT_FOUND - 6.985 ms
+2015-02-27 20:06:13,727 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/restx-stats >> OK - 20.08 ms
+2015-02-27 20:06:13,745 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 8.701 ms
+2015-02-27 20:06:15,337 [qtp584297575-43 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/slick.grid.js - per request factory created in 208.8 ms
+2015-02-27 20:06:15,345 [qtp584297575-31 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/slick.core.js - per request factory created in 218.5 ms
+2015-02-27 20:06:15,667 [qtp584297575-41 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.607 ms
+2015-02-27 20:06:15,689 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.910 ms
+2015-02-27 20:06:15,800 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 6.456 ms
+2015-02-27 20:06:15,807 [qtp584297575-43 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.581 ms
+2015-02-27 20:06:16,287 [qtp584297575-40 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/monitor >> OK - 213.3 ms
+2015-02-27 20:06:16,375 [qtp584297575-41 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/metrics >> OK - 301.9 ms
+2015-02-27 20:06:26,355 [qtp584297575-42 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sessionStats >> OK - 33.94 ms
+2015-02-27 20:06:28,572 [qtp584297575-41 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/metrics >> OK - 63.08 ms
+2015-02-27 20:06:28,635 [qtp584297575-40 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/monitor >> OK - 110.6 ms
+2015-02-27 20:06:48,348 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sessionStats >> OK - 1.896 ms
+2015-02-27 20:06:49,363 [qtp584297575-41 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/thread-dump >> OK - 30.85 ms
+2015-02-27 20:06:57,707 [qtp584297575-41 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/messages/ >> NOT_FOUND - 1.978 ms
+2015-02-27 20:07:07,967 [qtp584297575-43 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.845 ms
+2015-02-27 20:07:07,989 [qtp584297575-41 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.182 ms
+2015-02-27 20:07:08,081 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.877 ms
+2015-02-27 20:07:08,118 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 4.947 ms
+2015-02-27 20:07:08,149 [qtp584297575-42 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/restx-stats >> OK - 1.414 ms
+2015-02-27 20:07:35,382 [qtp584297575-41 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1.625 ms
+2015-02-27 20:07:35,409 [qtp584297575-40 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 8.955 ms
+2015-02-27 20:07:35,463 [qtp584297575-42 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.633 ms
+2015-02-27 20:07:35,493 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1.312 ms
+2015-02-27 20:07:37,058 [qtp584297575-31 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/ >> OK - 1.884 ms
+2015-02-27 20:07:42,354 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui/messages/ >> NOT_FOUND - 1.818 ms
+2015-02-27 20:07:50,252 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 2.566 ms
+2015-02-27 20:07:50,267 [qtp584297575-39 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 2.036 ms
+2015-02-27 20:07:50,346 [qtp584297575-41 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 8.227 ms
+2015-02-27 20:07:50,369 [qtp584297575-42 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 6.668 ms
+2015-02-27 20:07:50,494 [qtp584297575-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/logs >> OK - 55.30 ms
+2015-02-27 20:07:52,105 [qtp584297575-40 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/logs >> OK - 5.062 ms
+2015-02-27 20:07:53,755 [qtp584297575-41 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] DELETE /sessions/current >> OK - 2.965 ms
+2015-02-27 20:07:53,837 [qtp584297575-42 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/logs >> UNAUTHORIZED - 857.8 μs
+2015-02-27 20:07:55,134 [qtp584297575-31 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> UNAUTHORIZED - 829.1 μs
+2015-02-27 20:07:55,159 [qtp584297575-40 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> UNAUTHORIZED - 772.4 μs
+2015-02-27 20:07:55,280 [qtp584297575-39 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> UNAUTHORIZED - 527.4 μs

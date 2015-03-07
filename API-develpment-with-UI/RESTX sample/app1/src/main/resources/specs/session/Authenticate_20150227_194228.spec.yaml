@@ -1,0 +1,13 @@
+title: Authenticate 20150227 194228
+given:
+  - time: 2015-02-27T19:42:28.299+05:30
+wts:
+  - when: |
+       POST sessions
+       Cookie: RestxSession-app1={"_expires":"2015-03-29T19:42:28.299+05:30","principal":"admin","sessionKey":"157a1987-0ccf-4a2b-a31f-3ea8bc8d7555"}; RestxSessionSignature-app1=9wrGYiwRznYSNVcZf3z6Eny1zdk=
+
+        hi
+    then: |
+       400
+
+
